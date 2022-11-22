@@ -1,0 +1,417 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    max-width: 100%;
+    
+}
+
+
+.content{
+    
+    width: 100%;
+    margin: auto;
+
+    /****** flexbox *****/
+    display: flex;
+    flex-flow: row wrap;
+}
+
+header{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 48%, rgba(230,251,255,1) 100%);
+    width: 100%;
+    height: 135px;
+
+    /****** flexbox *********/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+header nav{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 36%;
+    align-items: center;
+
+    /******** flexbox **********/
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+
+header .logo{
+    width: 30%;
+    color: #052fd6d2;
+    display: flex;
+    justify-content:space-around;
+}
+
+
+
+.btn-header{
+    background-color: #3757d5;
+    padding: 14px 25px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+
+}
+
+
+section{
+    width: 100%;
+    display: flex;
+    flex-flow: row-reverse wrap;
+}
+
+
+
+.informationContainer{
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.imageContainer{
+    width: 50%;
+    /*background-color: #2673de;*/
+    background: rgb(90,153,241);
+    background: linear-gradient(152deg, rgba(90,153,241,1) 7%, rgba(38,115,222,1) 47%);
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.logos{
+    width: 100%;
+    padding: 36px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logos img{
+    width: 15%;
+    filter: grayscale();
+    opacity: 50%;
+}
+
+footer{
+    background-color: #eef3ff;
+    width: 100%;
+    margin-top: 25px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+
+footer div{
+    margin-top: 35px;
+}
+
+.logoFooter{
+    color: #052fd6d2;
+    padding-left: 0%;
+    margin-top: 35px;
+}
+
+.logoFooter p{
+    padding-left:0%;
+}
+
+p{
+    width: 100% !important;
+    padding-left: 16%;
+    padding-right: 19%;
+    color: gray;
+    font-size: 15px;
+
+}
+
+p svg{
+    
+    background-color: #ffd70045;
+    border-radius: 5px;
+}
+
+
+.textIcons{
+    padding: 0px 25px 0px 25px;
+}
+
+.subtitle{
+
+    color: #0b4188;
+    font-size: 50px;
+}
+
+.textInformation{
+    width: 100%;
+}
+
+.textInformation p{
+    padding-left: 7% !important;
+}
+
+
+
+
+ul{
+    padding: 59px 17px 59px 17px;
+    padding-left: 75px;
+    list-style: none;
+    color: gray;
+    
+}
+
+
+#alcohol, #stress, #food, #sleep, #excercise{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+li:hover + #alcohol,li:hover + #stress,li:hover +  #food,li:hover + #sleep,li:hover + #excercise{
+    visibility: visible;
+    opacity: 1;
+}
+
+/****************CARD ELEMENTS*****************/
+
+.cardContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+.cardInformation{
+    width: 15%;
+    
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 2px 5px #2c54cd1f;
+}
+
+.cardInformation2{
+    width: 40%;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 2px 5px #2c54cd1f;
+}
+
+
+.cardInformation svg, li svg, #schedule svg{
+    background-color: #0b51ac1f;
+    border-radius: 5px;
+}
+
+
+.titleCard,.footerTitles{
+    color: #0b4188;
+}
+
+
+.bodyCard{
+    color: gray;
+}
+
+.bodyCard button{
+    background-color: #b6c2ef52;
+    color: #3757d5;
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+}
+
+
+
+
+.scheduleDiv form label{
+    color: gray;
+} 
+
+
+.scheduleDiv{
+    width: 100% !important;
+    height: 15% !important;
+    border: 1px solid #d3d3d347;
+    box-shadow: 4px 4px #00000012;
+    position: relative !important;
+    left: calc(92px) !important;
+    border-radius: 11px !important;
+    top: calc(-31px) !important;
+    background-color: white;
+}
+
+
+.scheduleDiv form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.scheduleDiv form div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+input,select {
+    TEXT-ALIGN: center !important;
+    BORDER: NONE !important;
+}
+
+@media (max-width: 1000px) {
+    *{
+        overflow-x: hidden;
+    }
+
+
+    .scheduleDiv{
+        top: calc(-2px) !important;
+        height: 13% !important;
+        width: 77% !important;
+        left: calc(59px) !important;
+        justify-content: stretch;
+    }
+
+
+    .scheduleDiv form{
+        justify-content: stretch;
+        font-size: 5px;
+        height: 83%;
+    }
+
+
+    
+    input,select {
+        font-size: 5px;
+    }
+
+    section{
+        flex-direction: column;
+    }
+
+    .imageContainer{
+        width: 100%;
+    }
+
+    header{
+        height: 192px;
+    }
+
+    header nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: stretch;
+        align-items: center;
+    }
+    header .logo{
+        width: 100%;
+        justify-content:initial;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+    }
+
+    .informationContainer{
+        width: 100%;
+    }
+
+    .subtitle{
+        font-size: 24px;
+    }
+
+    .btn-header{
+        padding: 5px 25px;
+        margin-top: 0px;
+    }
+
+    p{
+        font-size: 10px;
+    }
+
+    svg{
+        width: 25px;
+        height: 25px;
+    }
+
+    .logos{
+        padding: 18px;
+    }
+
+    .textInformation p{
+        padding-left: 17% !important;
+    }
+
+    .cardContainer{
+        width: 95%;
+        margin: 15px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+    }
+
+    .cardInformation{
+        width: 87%;
+    }
+
+    .textIcons{
+        padding: 0px;
+    }
+
+    ul{
+        padding: 23px 17px 59px 17px;
+        padding-left: 40px;
+    }
+
+    #alcohol, #stress, #food, #sleep, #excercise{
+        margin: 15px !important;
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .cardContainer{
+        flex-direction:initial;
+    }
+
+    footer{
+        flex-flow: column wrap;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: baseline;
+    }
+
+    .content{
+        width: 107%;
+    }
+
+}

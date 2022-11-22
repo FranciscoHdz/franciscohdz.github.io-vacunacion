@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campaña de vacunación</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="content">
+        <header>
+            <div class="logo">
+                <h1>Vacunación</h1>
+            </div>
+            <nav>
+                <a href="">Personas Vacunadas</a>
+                <a href="">Educación</a>
+                <a id="news" href="">Noticias</a>
+                <a id="lineamientos" href="">Lineamientos</a>
+                <button class="btn-header">Agendar Cita</button>
+            </nav>
+        </header>
+        <section>
+            <div class="imageContainer">
+                <img src="./assets/Medico.png" alt="medico">
+            </div>
+            <div class="informationContainer">
+                <p>
+                    <span class="subtitle">
+                        Combate los Virus <br> con vacunas<br> 
+                    </span>
+                    Detengamos las pandemia matando al virus COVID-19 con las vacunas, no permitas que tú y tu familia se infecten.
+                    <br><br>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shield-check" width="25" height="25" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffbf00" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M9 12l2 2l4 -4" />
+                        <path d="M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3" />
+                      </svg> 
+                    <span class="textIcons">
+                        La mejor protección 
+                    </span>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star" width="25" height="25" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffbf00" fill="#ffbf00" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                    </svg> 
+
+                    <span class="textIcons">
+                      Vacunas Autorizadas
+                    </span>
+                </p>
+                <p id="schedule">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0b4188" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="12" cy="12" r="9" />
+                        <polyline points="12 7 12 12 15 15" />
+                      </svg>
+                      <span class="textIcons">
+                        Agenda tu cita
+                      </span>
+                </p>
+
+                <div class="scheduleDiv">
+                    <form action="">
+                        <div>
+                            <label  for="location">Estado</label>
+                            <input class="footerTitles" type="text" value="EDO.MEX ">
+                        </div>
+                        <div>
+                            <label  for="location">Fecha</label>
+                            <input class="footerTitles" type="date" value="2022-03-20">
+                        </div>
+                        <div>
+                            <label  for="location">Vacuna</label>
+                            <select class="footerTitles" name="" id="vacunn">
+                                <option value="astra" selected>AstraZeneca</option>
+                                <option value="sinovac">Sinovac</option>
+                                <option value="pfizer">Pfizer</option>
+                                <option value="Moderna">Moderna</option>
+                            </select>
+                        </div>
+                        
+                    </form>
+                </div>
+
+                
+            </div>
+            <div class="logos">
+                <img src="./assets/astrazeneca.png" alt="astrazeneca">
+                <img src="./assets/Sinovac.svg.png" alt="Sinovac">
+                <img src="./assets/pfizer.svg" alt="pfizer">
+                <img src="./assets/moderna.png" alt="">
+            </div>
+            <div class="textInformation">
+                <p>
+                    <span class="subtitle">
+                        ¿Porque debería vacunarme? 
+                        <br>
+                    </span>
+                    Para evitar cualquier duda sobre la aplicación de la vacuna COVID-19 <br>
+                    identifique los siguientes 4 beneficios de la Vacunación COVID-19:
+                </p>
+                <br><br>
+            </div>
+            <div class="cardContainer">
+
+                <div class="cardInformation">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-adjustments-horizontal" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0b4188" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="14" cy="6" r="2" />
+                        <line x1="4" y1="6" x2="12" y2="6" />
+                        <line x1="16" y1="6" x2="20" y2="6" />
+                        <circle cx="8" cy="12" r="2" />
+                        <line x1="4" y1="12" x2="6" y2="12" />
+                        <line x1="10" y1="12" x2="20" y2="12" />
+                      </svg>
+                      <br>
+                      <span class="titleCard">
+                        Minimiza la propagación de virus
+                      </span>
+                      <br>
+                      <span class="bodyCard">
+                        La vacuna ha demostrado ser eficaz para evitar que alguien se infecte con el coronavirus.
+                      </span>
+
+                </div>
+
+                <div class="cardInformation">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shield-check" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0b4188" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M9 12l2 2l4 -4" />
+                        <path d="M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3" />
+                      </svg>
+                      <br> 
+                      <span class="titleCard">
+                        Formar Anticuerpos
+                      </span>
+                      <br>
+                      <span class="bodyCard">
+                        Se ha demostrado que la vacunación contra COVID-19 ayuda a formar la respuesta de los anticuerpos del sistema inmunologico.
+                      </span>
+                </div>
+
+                <div class="cardInformation">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-users" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0b4188" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="9" cy="7" r="4" />
+                        <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                        <path d="M21 21v-2a4 4 0 0 0 -3 -3.85" />
+                      </svg>
+                      <br>
+                      <span class="titleCard">
+                        Proteger a las personas cercanas
+                      </span>
+                      <br>
+                      <span class="bodyCard">
+                        Los beneficios de la Vacunación COVID-19 son que la vacuna que recibimos también puede ayudar a proteger a las personas que nos rodean
+                      </span>
+                      
+
+                </div>
+                
+                <div class="cardInformation">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chart-dots" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0b4188" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 3v18h18" />
+                        <circle cx="9" cy="9" r="2" />
+                        <circle cx="19" cy="7" r="2" />
+                        <circle cx="14" cy="15" r="2" />
+                        <line x1="10.16" y1="10.62" x2="12.5" y2="13.5" />
+                        <path d="M15.088 13.328l2.837 -4.586" />
+                      </svg>
+                      <br>    
+                      <span class="titleCard">
+                        Creación de la inmunidad de grupo
+                      </span>
+                      <br>
+                      <span class="bodyCard">
+                        La vacunación contra COVID-19 también es beneficiosa para crear una inmunidad de grupo.
+                      </span>
+                </div>
+                
+            </div>
+
+            <div class="informationContainer">
+                <p>
+                    <span class="subtitle">
+                        Preparativos antes de la vacuna 
+                    </span>
+                    <br>
+                    El éxito de la vacuna está fuertemente influenciado por la fuerza del sistema inmunológico del cuerpo. Por lo tanto, hay varias cosas que se pueden probar para que la vacuna COVID-19 funcione:
+                </p>
+                <ul>
+                    <li class="alcohol"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shield-x" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0b4188" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3" />
+                        <path d="M10 10l4 4m0 -4l-4 4" />
+                      </svg>Evitar las bebidas alcohólicas </li>
+
+                    <div id="alcohol">El consumo excesivo de alcohol aumenta el riesgo de síndrome de dificultad respiratoria aguda
+                        (SDRA), una de las complicaciones más graves de la COVID-19.</div>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-square-x" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0b4188" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <rect x="4" y="4" width="16" height="16" rx="2" />
+                        <path d="M10 10l4 4m0 -4l-4 4" />
+                      </svg>Evitar el estrés </li>
+
+
+                    <div id="stress">El estrés tiene un profundo efecto sobre el trabajo inmunológico. Además, el estrés prolongado puede aumentar el cortisol 
+                        la producción de cortisol y el estrés oxidativo en el cuerpo.</div>
+
+
+                    <li><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-apple" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0b4188" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="12" cy="14" r="7" />
+                        <path d="M12 11v-6a2 2 0 0 1 2 -2h2v1a2 2 0 0 1 -2 2h-2" />
+                        <path d="M10 10.5c1.333 .667 2.667 .667 4 0" />
+                      </svg>Coma alimentos saludables </li>
+
+
+                    <div id="food">
+                        Llevar una dieta saludable es muy importante durante la pandemia de COVID-19. Lo que comemos y bebemos puede afectar a 
+                        la capacidad de nuestro cuerpo para prevenir, combatir y recuperarse de las infecciones. </div>
+
+                    <li><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bed" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0b4188" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 7v11m0 -4h18m0 4v-8a2 2 0 0 0 -2 -2h-8v6" />
+                        <circle cx="7" cy="10" r="1" />
+                      </svg>Dormir lo suficiente </li>
+
+                    <div id="sleep">
+                        El sueño es fundamental para la salud física y el funcionamiento eficaz del sistema inmunitario. También es un factor clave 
+                        del bienestar emocional y la salud mental, ayudando a combatir el estrés, la depresión y la ansiedad.
+                    </div
+                    
+                    >
+                    <li><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heartbeat" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0b4188" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M19.5 13.572l-7.5 7.428l-2.896 -2.868m-6.117 -8.104a5 5 0 0 1 9.013 -3.022a5 5 0 1 1 7.5 6.572" />
+                        <path d="M3 13h2l2 3l2 -6l1 3h3" />
+                      </svg>Ejercicio o actividad física </li>
+                    <div id="excercise">
+                        La actividad física y el ejercicio pueden ser estrategias de tratamiento eficaces para los síntomas tanto de la depresión como de la ansiedad.
+                    </div>
+                </ul>
+            </div>
+
+            <div class="imageContainer">
+                
+                <img src="./assets/medico2.png" alt="medico">
+            </div>
+           
+            <div class="imageContainer">
+                <img src="./assets/medico3.png" alt="medico">
+            </div>
+            <div class="informationContainer">
+                 <p>
+                    <span class="subtitle">
+                        Contacto de emergencia
+                        <br>
+                    </span>
+                    Póngase en contacto en alguno de los siguientes medios de contacto si usted o su familia se sienten mal y tienen síntomas similares al COVID-19, asegúrese también de cuidarse antes de informarnos:
+                </p>
+                <br><br>
+                <div class="cardContainer">
+
+                    <div class="cardInformation2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-adjustments-horizontal" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0b4188" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <circle cx="14" cy="6" r="2" />
+                            <line x1="4" y1="6" x2="12" y2="6" />
+                            <line x1="16" y1="6" x2="20" y2="6" />
+                            <circle cx="8" cy="12" r="2" />
+                            <line x1="4" y1="12" x2="6" y2="12" />
+                            <line x1="10" y1="12" x2="20" y2="12" />
+                        </svg>
+                        <span class="titleCard">
+                            Teléfono
+                        </span>
+                        <span class="bodyCard">
+                            5544785569
+                            <button>Llamar Ahora</button>
+                        </span>
+
+                    </div>
+
+                    <div class="cardInformation2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shield-check" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0b4188" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M9 12l2 2l4 -4" />
+                            <path d="M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3" />
+                        </svg>
+                        <span class="titleCard">
+                            Chat
+                        </span>
+                        <span class="bodyCard">
+                            5544787779
+                            <button>Chatear ahora</button>
+                          </span>
+                    </div>
+                </div>
+
+                <div class="cardContainer">
+                    <div class="cardInformation2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-users" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0b4188" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <circle cx="9" cy="7" r="4" />
+                            <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                            <path d="M21 21v-2a4 4 0 0 0 -3 -3.85" />
+                          </svg>
+                          <span class="titleCard">
+                            Video llamada
+                          </span>
+                          <span class="bodyCard">
+                            5599795799
+                            <button>Llamar ahora</button>
+                          </span>
+                          
+    
+                    </div>
+                    
+                    <div class="cardInformation2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chart-dots" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0b4188" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M3 3v18h18" />
+                            <circle cx="9" cy="9" r="2" />
+                            <circle cx="19" cy="7" r="2" />
+                            <circle cx="14" cy="15" r="2" />
+                            <line x1="10.16" y1="10.62" x2="12.5" y2="13.5" />
+                            <path d="M15.088 13.328l2.837 -4.586" />
+                          </svg> 
+                          <span class="titleCard">
+                            Email
+                          </span>
+                          <span class="bodyCard">
+                            vacunacion.hoy@salud.mx
+                            <button>Message now</button>
+                          </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="logoFooter">
+                <p>
+                    <span class="logoFooter">
+                        Vacunación
+                    </span>
+                    <br>
+                    Nuestro objetivo es ayudar al mundo a liberarse de la pandemia
+                </p>
+            </div>
+            <div >
+                <p> 
+                    <span class="footerTitles">
+                        Acerca
+                    </span>
+                    <br>
+                    Nosotros
+                    
+                    <br>
+                    News and Blog
+                </p>
+            </div>
+            <div>
+                <p>
+                    <span class="footerTitles">
+                        Compañia 
+                    </span>
+                    <br>
+                    Como trabajamos
+                    <br>
+                    Capital
+                    <br>
+                    Seguridad
+
+                </p>
+            </div>
+            <div>
+                <p>
+                    <span class="footerTitles">
+                        Ayuda
+                    </span>
+                    <br>
+                    FAQs
+                    <br>
+                    Ayuda Central
+                    <br>
+                    Contactanos
+                </p>
+            </div>
+        </footer>
+    </div>
+    <script>
+
+        document.addEventListener('DOMContentLoaded',()=>{
+            document.querySelector(".btn-header").addEventListener('click',()=>{
+                document.querySelector(".footerTitles").value = '';
+                document.querySelector(".footerTitles").focus()
+            });
+
+
+            document.querySelector("#lineamientos").addEventListener('click',()=>{
+                window.open("https://coronavirus.gob.mx/wp-content/uploads/2022/01/2022.01.12-Lineamiento_VE_ERV_DGE.pdf","Lineamientos","width=800,height=800'")
+            });
+
+            document.querySelector("#news").addEventListener("click",()=>{
+                window.open("https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019?adgroupsurvey={adgroupsurvey}&gclid=Cj0KCQiA4OybBhCzARIsAIcfn9kOYcI3tGMcYxxYy2buIMoMXr4Oo65J--Oat9GUYrwkPtGN-Z1p2I0aAgqCEALw_wcB","Noticias","width=800,height=800'")
+            })
+
+            document.querySelector("#vacunn").addEventListener("change",()=>{
+                alert("Registro realizado")
+            })
+
+        })
+    </script>
+</body>
+</html>
